@@ -1,0 +1,38 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 950px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand h2 {
+  font-size: 3rem;
+}
+
+.user-information {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.logout-btn {
+  border: 1px solid #ff922b;
+  background: #ff922b;
+  padding: 0.6em 1.2em;
+  color: #fff4e6;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  background: #d9480f;
+  color: #fff4e6;
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    width: 90%;
+  }
+}
